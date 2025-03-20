@@ -16,8 +16,13 @@
   justify-content: center;
 }
 .main-container {
-  height: auto;
-  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .emoji {
   font-size: 10rem;
@@ -88,5 +93,27 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .emoji {
+    font-size: 4rem;
+  }
+
+  .sentiment-label {
+    font-size: 1.2rem;
+  }
+
+  .text-input {
+    font-size: 0.9rem;
+  }
+
+  .analyze-button {
+    font-size: 0.9rem;
   }
 }
