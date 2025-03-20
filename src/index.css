@@ -100,10 +100,6 @@ button:focus-visible {
   .title {
     font-size: 1.8rem;
   }
-  
-  .emoji {
-    font-size: 4rem;
-  }
 
   .sentiment-label {
     font-size: 1.2rem;
