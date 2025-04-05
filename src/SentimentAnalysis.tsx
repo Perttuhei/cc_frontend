@@ -28,7 +28,7 @@ const SentimentAnalysis: React.FC = () => {
               className="text-input"
             />
             <Button
-              onClick={() => analyze(setSentiment, setLoading)}
+              onClick={() => analyze(text, setSentiment, setLoading)}
               className="analyze-button"
               disabled={loading}
             >
